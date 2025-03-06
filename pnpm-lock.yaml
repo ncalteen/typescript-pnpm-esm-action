@@ -22,8 +22,8 @@ importers:
         specifier: ^9.21.0
         version: 9.21.0
       '@github/local-action':
-        specifier: ^3.0.0
-        version: 3.0.0
+        specifier: ^3.0.1
+        version: 3.0.1
       '@jest/globals':
         specifier: ^29.7.0
         version: 29.7.0
@@ -546,8 +546,8 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@github/local-action@3.0.0':
-    resolution: {integrity: sha512-EHDeuHDl+lYYaEKQwo662VFP1BrvaSGxjGfY+jSHJSeb0yXzILb28fG8O0f4pFC2/3yzERJuR8f/oMTq86bPig==}
+  '@github/local-action@3.0.1':
+    resolution: {integrity: sha512-RcX98w3wilh/HXDXZt5nRljCZlcYuIsaNNY0G1Te7pzJynFFAso5NvInH6isFF60opPBfycYKPO6sBtsE58O4A==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -3721,7 +3721,7 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@github/local-action@3.0.0':
+  '@github/local-action@3.0.1':
     dependencies:
       '@actions/artifact': 2.2.2
       '@actions/core': 1.11.1
